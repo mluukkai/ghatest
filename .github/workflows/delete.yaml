@@ -4,8 +4,8 @@ on:
   delete:
 
 jobs:
-  build-publish-deploy:
-    name: Build, Publish and Deploy
+  delete:
+    name: delete
     runs-on: ubuntu-latest
 
     steps:
