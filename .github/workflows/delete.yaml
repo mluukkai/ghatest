@@ -12,4 +12,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: say
-        run: echo "DELETE the ${{ github.ref_name }} branch!"
+        run: echo "DELETE the ${{ github.event.ref }} branch!"
