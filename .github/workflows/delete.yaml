@@ -1,0 +1,15 @@
+name: Delete application
+
+on:
+  delete:
+
+jobs:
+  build-publish-deploy:
+    name: Build, Publish and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: say
+        run: echo "DELETE the ${{ github.ref_name }} branch!"

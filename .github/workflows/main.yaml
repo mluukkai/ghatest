@@ -1,7 +1,9 @@
-name: Release application
+name: Deploy application
 
 on:
+  push:
   delete:
+
 
 jobs:
   build-publish-deploy:
