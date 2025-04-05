@@ -4,7 +4,6 @@ on:
   push:
   delete:
 
-
 jobs:
   build-publish-deploy:
     name: Build, Publish and Deploy
